@@ -18,4 +18,4 @@ INSTALLAZIONE template_base Laravel da 0:
 
 9. Completata tutta la procedura possiamo lanciare il comando {npm install} che legge tutte le modifiche da package.json e installa tutti i pacchetti di npm
 
-10. Una volta finito per testare se tutto funziona correttamente dobbiamo far partire i server di laravel tramite il comando {php artisan serve} e dobbiamo far partire il server vite tramite il comando {npm run dev}
+10. Infine apriamo due prompt separati e per testare se tutto funziona correttamente dobbiamo far partire i server di laravel e vite tramite il comando {php artisan serve} & {npm run dev}

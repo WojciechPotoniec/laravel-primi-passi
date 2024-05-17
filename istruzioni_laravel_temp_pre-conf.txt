@@ -1,0 +1,13 @@
+INSTALLAZIONE da template preconfigurato:
+
+1. Importare il template base di laravel da gitHub
+
+2. Copiare il file [.env.example] e rinominarlo in [.env]
+
+3. Aprire il terminale e lanciare il comando nel terminale {composer install} che legge il file [composer.json] e installa tutto quello di cui ha bisogno 
+
+4. In seguito lancio il comando {php artisan key:generate} per generare la chiave nel file [.env]
+
+5. Generata la chiave dobbiamo lanciare il comando {npm install} per installare tutte le dipendenze di node
+
+6. Infine lanciare entrambi i server con due prompt separati {php artisan serve} & {npm run dev} e verifichiamo se tutto funziona
