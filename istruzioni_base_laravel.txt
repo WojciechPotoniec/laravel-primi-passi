@@ -1,0 +1,21 @@
+INSTALLAZIONE template_base Laravel da 0:
+
+1. Aprire il terminale su VisualStudioCode e controllare su quale cartella ci troviamo
+
+2. Per cambiare directory usare il comando {cd [nome_percorso]} in cui abbiamo i nostri progetti
+
+3. In seguito digitiamo il comando {composer create-project laravel/laravel:^10.0 [nome_progetto]} e poi ci sposiamo dentro la cartella del progetto con il comando {cd [nome_progetto]}
+
+4. Per poter aprire la nostra cartella all'interno di VisualStudioCode usiamo il comando {code . -r}
+
+5. Una volta creato il progetto ci sono alcuni passaggi da eseguire prima di poter lavorare
+
+6. Dobbiamo rimuovere il pacchetto css dal package.json tramite il comando {npm remove postcss}
+
+7. Una volta rimosso per rendere compatibile il nostro laravel con alcune delle funzionalità a noi più conosciute come bootstrap dobbiamo scaricare un pacchetto base tramite il comando {composer require pacificdev/laravel_9_preset}
+
+8. Una volta scaricato dobbiamo installarlo tramite il comando {php artisan preset:ui bootstrap} che esegue dei cambiamenti all'interno del nostro file package.json
+
+9. Completata tutta la procedura possiamo lanciare il comando {npm install} che legge tutte le modifiche da package.json e installa tutti i pacchetti di npm
+
+10. Una volta finito per testare se tutto funziona correttamente dobbiamo far partire i server di laravel tramite il comando {php artisan serve} e dobbiamo far partire il server vite tramite il comando {npm run dev}
