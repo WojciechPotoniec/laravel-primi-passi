@@ -18,10 +18,10 @@
 <body>
 
     <main>
-        <h1 class="text-center p-3">
-            Welcome {{ $user['name'] }} {{ $user['surname'] }}
-        </h1>
-        <a class="d-flex justify-content-end me-3" href="contatti">Contact us</a>
+        <h2 class="text-center text-light bg-dark p-4">
+            Contattaci
+        </h2>
+        <a class="d-flex justify-content-end me-3" href="/">Back home</a>
     </main>
 
 </body>
